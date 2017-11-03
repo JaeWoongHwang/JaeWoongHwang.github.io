@@ -133,7 +133,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("C:\Users\student\Pictures\beach.jpg");
+  background-image: url("..\img\beach.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
