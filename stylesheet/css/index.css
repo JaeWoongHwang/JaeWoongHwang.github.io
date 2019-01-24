@@ -1,3 +1,8 @@
+/*Setting*/
+body{
+ background-color: #f3f2f1;
+}
+
 /* Navigation bar */
 nav {
   width: 100%;
@@ -57,4 +62,11 @@ section h4 {
 .port_content_block,
 .study_content_blcok {
   width: 100%;
+}
+
+/*Info Section*/
+.info_media_box{
+  width: 100%;
+  height: 500px;
+  transform: translate3d(0px, 0px, 0px);
 }
