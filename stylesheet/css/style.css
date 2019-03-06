@@ -1,0 +1,83 @@
+/*Setting*/
+body{
+ background-color: #f3f2f1;
+ margin: 0;
+}
+
+/* Navigation bar */
+nav {
+  width: 100%;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 999;
+}
+
+nav > a:link, nav > a:visited {
+  font-size: 0.8rem;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav > .nav_btn {
+  display: block;
+  height: 30px;
+  width: 20%;
+  margin: 0;
+  line-height: 30px;
+}
+
+/* Section */
+section {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  height: 900px;
+  border: 1px solid #fafafa;
+}
+
+section > h4 {
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 1px 2px 1px #e5e5e5;
+  line-height: 600px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.sec_info,
+.sec_career,
+.sec_portfolio,
+.sec_study {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.info_content_block,
+.career_content_block,
+.port_content_block,
+.study_content_blcok {
+  width: 100%;
+}
+
+/*Info Section*/
+.info_content_block{
+  width: 100%;
+  height: 900px;
+}
+
+.info_title{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
