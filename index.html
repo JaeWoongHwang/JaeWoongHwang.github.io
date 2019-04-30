@@ -11,13 +11,15 @@
   <![endif]-->
   <meta name="format-detection" content="telephone=no">
   <title>JaeWoong's Portfolio</title>
-  <link rel="stylesheet" href="stylesheet/css/index.css">
+  <link rel="stylesheet" href="stylesheet/css/style.css">
+  <link rel="stylesheet" href="stylesheet/css/vegas.css">
   <script src="stylesheet/js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="stylesheet/js/vegas.js"></script>
 </head>
 
 <body>
   <nav>
-    <a href="#" class="nav_btn">Info</a>
+    <a href="#" class="nav_btn">Jaewoong Hwang</a>
     <a href="#" class="nav_btn">Career</a>
     <a href="#" class="nav_btn">Portfolio</a>
     <a href="#" class="nav_btn">Study</a>
@@ -25,8 +27,9 @@
   </nav>
   <section class="sec_info" id="info">
     <div class="info_content_block">
-      <div class="info_media_box">
-          <video src="video/intro_video.mp4" type= "video/mp4" loop="loop" autoplay="autoplay" muted="muted" playsinline></video>
+      <div class="info_title">
+          <h3>Jaewoong Hwang</h3>
+          <p>I believe we can solve any problem. And in it we can grow and prove value.</p>
       </div>
     </div>
   </section>
@@ -50,6 +53,20 @@
       <h4>Contact</h4>
     </div>
   </section>
+  
+  <script>
+    $(function () {
+            $('.info_content_block').vegas({
+                slides: [
+                    { src: "images/bg2.jpg" },
+                    { src: "images/bg1.jpg" }
+                ],
+                timer: false,
+                delay: 4500
+            });
+        });
+
+</script>
 </body>
 
 </html>
